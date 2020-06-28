@@ -1,15 +1,4 @@
-# FROM 295245630435.dkr.ecr.sa-east-1.amazonaws.com/python-docker:latest
-# LABEL Author="Lucas Naldo"
-# LABEL Version="0.1"
 FROM python:3.7.8
-
-RUN apt-get clean && apt-get update && apt-get install -y locales
-RUN locale-gen pt_BR.UTF-8
-
-ENV LANG pt_BR.UTF-8
-ENV LC_ALL pt_BR.UTF-8
-
-RUN dpkg-reconfigure locales
 
 RUN mkdir /teste_dextra
 
