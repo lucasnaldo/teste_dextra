@@ -9,13 +9,12 @@ import argparse
 # INICIANDO TEMPO EXECUÇÃO
 tempo_exec = datetime.datetime.utcnow()
 print(tempo_exec)
-print('INICIOU O PROCESSO')
+print('PROCESSO INICIADO')
 
 dm = dextra_manager()
 dm.processo()
 
 # FINALIZANDO TEMPO EXECUÇÃO
+print('PROCESSO FINALIZADO')
 tempo_fim = datetime.datetime.utcnow()
-print(tempo_fim - tempo_exec)
-
-# dextra\quandl_api.py
+print("Tempo de execução: ", tempo_fim - tempo_exec)
