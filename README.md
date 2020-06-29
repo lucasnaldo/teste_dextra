@@ -13,4 +13,4 @@ docker images
 ##### Copiar IMAGE ID
 
 ##### Executar o comando:
-docker run <image id>
+docker run image id
