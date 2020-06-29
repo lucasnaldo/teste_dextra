@@ -54,7 +54,8 @@ class dextra_manager():
         df.loc['a']=['inicial', '-R$300.000,00', -300000, data_atual, data_atual, 0]
         newIndex=['a']+[ind for ind in df.index if ind!='a']
         df=df.reindex(index=newIndex)
-
+        
+        ### Descobrindo a TIR
         cash_flow = df['preco_fix'].values 
         irr = round(((np.irr(df['preco_fix']))*100),1)
         print("A TIR para esse fluxo de caixa é de: {}% \nenquanto a selic atual é de:{}%".format(irr, selic))
