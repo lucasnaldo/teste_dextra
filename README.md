@@ -1,14 +1,14 @@
-# Skills Problem Solving using Python
+# PROJETO DEXTRA DIGITAL
 
-This is a test to check your skills in Problem Solving, Basic Mathematical knowledge as well as Python programing language
+## Como Exeutar
 
-# Problem to Solve.
+Clonar o repositório
 
-You have the opportunity to make a investment buying some financial assets with discount.
-You will pay for those assets R$ 300.000,00 ( Three hundred thousand reais) in the day D.
-This invest contain a lot of assets and you want to know what is the internal rate of the investiment.
+docker build --tag dextra_app
 
-Besides calcutate the internal rate of investiment you want to compare wheter this investment is better than a Selic rate.
+docker run --name python-app -p 5000:5000 my-python-app
+
+Besides calcutate the internal rate of investment you want to compare wheter this investment is better than a Selic rate.
 
 # You have to:
 Understand the CSV file and how its is relateded with the concepts of internal rate of investiment in irregular cash flow;

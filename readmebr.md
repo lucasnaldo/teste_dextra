@@ -30,14 +30,3 @@ Crie um aplicativo Python que execute as seguintes tarefas:
 
 # Testes unitários
 - Crie testes de unidade com 50% de cobertura de código
-
-
-
-
-
-# TIR - 
-# http://prorum.com/?qa=4563/matematica-financeira-com-python
-# https://medium.com/@alegeorgelustosa/introdu%C3%A7%C3%A3o-ao-mercado-financeiro-com-python-3383ebecddf7
-
-
-Vamos agora calcular a taxa interna de retorno. Lembre-se que a TIR é a taxa de juros que zera o valor presente de um fluxo de caixa. No exemplo a seguir, o autor utiliza uma função do Excel para fazer esse cálculo. Por isso, vamos utilizar a função irr() do módulo numpy, que também calcula a taxa interna de retorno.
